@@ -1,0 +1,413 @@
+02-27 11:21:02 Machine Resoltion is width 1366 Height 768
+02-27 11:21:03 path : C:\Program Files\BlueStacks\
+02-27 11:21:03 path : C:\Program Files\BlueStacks\
+02-27 11:21:17 Client : 10.1.174.10:8000/builds/AppPlayer/bst-v4.60.0/4.60.0.1043_bgp/BlueStacks-Installer_4.60.0.1043_amd64_native.exe
+02-27 11:21:17 Current build is not Worldwide
+02-27 11:21:17 Copying build to machine..
+02-27 11:21:17 Builder Folder Already There, So Moving Forward
+02-27 11:21:17 filepath - http://10.1.174.10:8000/builds/AppPlayer/bst-v4.60.0/4.60.0.1043_bgp/BlueStacks-Installer_4.60.0.1043_amd64_native.exe
+Sanity Testcase:: BGP Client Installation Successful : Pass 
+Sanity TestCase:: App player failed to start after install complete : Fail 
+getLastApp Responce com.google.android.setupwizard
+Home app has launched
+End Time : - 1551246973.67
+Android Bootup Time : 1551246973.67 - 1551246973.29 = 0.381999969482
+Sanity Testcase:: Android Bootup Check Successful : PASS
+Sanity Testcase:: Android First Bootup Time Duration : 0.38s
+Start Time : - 1551246973.29
+Sanity Testcase:: One Time Setup for BlueStacks BGP Build : Pass 
+Defender:: Home exists
+First Launch(FLE) mechanism executed Successfully : Pass 
+Defender:: Install APK clicked
+Defender:: Icon hovered
+Defender:: Defender Install clicked
+Defender:: APK path pasted and Enter clicked
+Defender:: Defender clicked
+Defender:: Apk Install 'Defender' via AppPlayer UI is working properly : Pass 
+Fn install_apk_StupidZombies() started.
+Fn install_apk_candycrush() started.
+App Install 'StupidZombies' via HD-ApkHandler.exe is working properly : Pass 
+Fn install_apk_abfriends() started.
+App Install 'CandyCrush' via HD-ApkHandler.exe is working properly : Pass 
+App Install 'ABFriends' via HD-ApkHandler.exe is working properly : Fail 
+Defender:: Home exists
+Defender:: Install APK clicked
+Defender:: Icon hovered
+Defender:: Defender Install clicked
+Defender:: Defender clicked
+Defender:: APK path pasted and Enter clicked
+Defender:: Apk Install 'Defender' via AppPlayer UI is working properly : Pass 
+Settings Testcase:: Settings Menu is displayed properly : PASS
+Fn install_apk_DeviceProfile_apk() started.
+App Install 'Device_Details' via HD-ApkHandler.exe is working properly : Pass 
+Settings Testcase:: Settings -> Display -> Aspect Ratio Menu is displayed properly : Pass 
+Settings Testcase:: Settings -> Display -> Aspect Ratio value is Set to 'Default' : Pass 
+Settings Testcase:: Settings -> Display -> Aspect Ratio value is Set to changed properly : Pass 
+Settings Testcase:: Settings -> Display -> DPI Menu is displayed properly : Pass 
+Settings Testcase:: Settings -> Display -> 240 DPI Value is set as Default : Pass 
+Settings Testcase:: Settings -> Display -> DPI value is changed properly to 160 : Pass 
+Settings Testcase:: Settings -> Display -> DPI value is changed properly to 320 : Pass 
+Settings Testcase:: Settings -> Engine Menu is displayed properly : Pass 
+Settings Testcase:: Settings -> Engine -> CPU cores are modified properly : Pass 
+Settings Testcase:: Settings -> Engine -> Graphics changed properly to 'OpenGL' plus 'Advanced-Graphics' : Pass 
+Settings Testcase:: Settings -> Engine -> Graphics changed properly from 'OpenGL' to 'DirectX' : Pass 
+02-27 13:07:52 Machine Resoltion is width 1366 Height 768
+02-27 13:07:53 Client : 10.1.174.10:8000/builds/AppPlayer/bst-v4.60.0/4.60.0.1043_bgp/BlueStacks-Installer_4.60.0.1043_amd64_native.exe
+02-27 13:07:53 Current build is not Worldwide
+02-27 13:07:53 Fn install_apk_angrybirds() started.
+
+02-27 13:07:53 path : C:\Program Files\BlueStacks\
+02-27 13:07:53 Fn get_AppList() started.
+
+02-27 13:07:53 Get AppList URL - http://127.0.0.1:2860/getapplist
+02-27 13:07:54 URL Response in GetAppList: b'[{"package": "com.gameresort.stupidzombies", "version": "40", "appname": "Stupid Zombies", "gl3required": "false"}, {"package": "com.droidhen.defender", "version": "25", "appname": "Defender", "gl3required": "false"}, {"package": "com.bluestacks.devicedetails", "version": "8", "appname": "Device Details", "gl3required": "false"}, {"package": "com.supercell.clashofclans", "version": "1063", "appname": "Clash of Clans", "gl3required": "false"}, {"package": "com.king.candycrushsaga", "version": "104410", "appname": "Candy Crush Saga", "gl3required": "false"}, {"package": "com.rovio.angrybirdsfriends", "version": "13244", "appname": "AB Friends", "gl3required": "false"}]'
+02-27 13:07:54 URL Resp in AngryBirds Apk install - b'[{"package": "com.gameresort.stupidzombies", "version": "40", "appname": "Stupid Zombies", "gl3required": "false"}, {"package": "com.droidhen.defender", "version": "25", "appname": "Defender", "gl3required": "false"}, {"package": "com.bluestacks.devicedetails", "version": "8", "appname": "Device Details", "gl3required": "false"}, {"package": "com.supercell.clashofclans", "version": "1063", "appname": "Clash of Clans", "gl3required": "false"}, {"package": "com.king.candycrushsaga", "version": "104410", "appname": "Candy Crush Saga", "gl3required": "false"}, {"package": "com.rovio.angrybirdsfriends", "version": "13244", "appname": "AB Friends", "gl3required": "false"}]'
+02-27 13:07:54 Sanity Testcase:: App Installation Successful for the App - 'com.rovio.angrybirdsspace.ads': PASS
+02-27 13:07:56 Fn verify_install_gameofwar() started.
+
+02-27 13:07:56 Fn get_AppList() started.
+
+02-27 13:07:56 Get AppList URL - http://127.0.0.1:2860/getapplist
+02-27 13:07:56 URL Response in GetAppList: b'[{"package": "com.gameresort.stupidzombies", "version": "40", "appname": "Stupid Zombies", "gl3required": "false"}, {"package": "com.droidhen.defender", "version": "25", "appname": "Defender", "gl3required": "false"}, {"package": "com.bluestacks.devicedetails", "version": "8", "appname": "Device Details", "gl3required": "false"}, {"package": "com.supercell.clashofclans", "version": "1063", "appname": "Clash of Clans", "gl3required": "false"}, {"package": "com.king.candycrushsaga", "version": "104410", "appname": "Candy Crush Saga", "gl3required": "false"}, {"package": "com.rovio.angrybirdsfriends", "version": "13244", "appname": "AB Friends", "gl3required": "false"}]'
+02-27 13:07:56 URL Resp in 'GameOfWar' Apk install - b'[{"package": "com.gameresort.stupidzombies", "version": "40", "appname": "Stupid Zombies", "gl3required": "false"}, {"package": "com.droidhen.defender", "version": "25", "appname": "Defender", "gl3required": "false"}, {"package": "com.bluestacks.devicedetails", "version": "8", "appname": "Device Details", "gl3required": "false"}, {"package": "com.supercell.clashofclans", "version": "1063", "appname": "Clash of Clans", "gl3required": "false"}, {"package": "com.king.candycrushsaga", "version": "104410", "appname": "Candy Crush Saga", "gl3required": "false"}, {"package": "com.rovio.angrybirdsfriends", "version": "13244", "appname": "AB Friends", "gl3required": "false"}]'
+02-27 13:07:56 Sanity Testcase:: First Launch(FLE) mechanism executed Successfully: PASS
+02-27 13:07:56 Sanity Testcase:: Google App Installation Successful for the App - 'com.supercell.clashofclans': PASS
+02-27 13:08:06 path : C:\Program Files\BlueStacks\
+02-27 13:08:06 Sanity Testcase:: GLCheck for OpenGL : PASS
+02-27 13:08:06 Sanity Testcase:: GLCheck for DirectX 9 : PASS
+02-27 13:08:06 Sanity Testcase:: GLCheck for DirectX 11 : PASS
+02-27 13:08:07 Sanity Testcase:: GLCheck for Auto Fallback Dx11 to Dx9 : PASS
+02-27 13:08:09 path : C:\Program Files\BlueStacks\
+02-27 13:08:09 path : C:\Program Files\BlueStacks\
+02-27 13:08:09 Shell connected..
+02-27 13:08:35 Sanity Testcase:: 'config.db' present at the Android path '/data/downloads': PASS
+02-27 13:08:35 Sanity Testcase:: '.config.db' present at the Android path '/data/downloads': PASS
+02-27 13:08:37 OEM.cfg File Path :C:\ProgramData\BlueStacks\Engine\Oem.cfg
+02-27 13:08:37 Oem Config Testcase:: WindowsOEMFeatures : 9223371990822090623
+02-27 13:08:37 Oem Config Testcase:: IsGameManagerToBeStartedOnRunApp : true
+02-27 13:08:37 Oem Config Testcase:: AppsOEMFeaturesBits : 16592382
+02-27 13:08:37 Oem Config Testcase:: MsgWindowTitle : Bluestacks App Player
+02-27 13:08:37 Oem Config Testcase:: AndroidFeatureBits : 2243585
+02-27 13:08:37 Oem Config Testcase:: IsFrontendFormLocation6 : true
+02-27 13:08:37 Oem Config Testcase:: IsFrontendBorderHidden : true
+02-27 13:08:37 Oem Config Testcase:: DesktopShortcutFileName : BlueStacks.lnk
+02-27 13:08:37 Oem Config Testcase:: IsPixelParityToBeIgnored : true
+02-27 13:08:37 Oem Config Testcase:: IsOnlyStopButtonToBeAddedInContextMenuOFSysTray : true
+02-27 13:08:37 Oem Config Testcase:: IsLefClickOnTrayIconLaunchPartner : true
+02-27 13:08:37 Oem Config Testcase:: IsSendGameManagerRequest : true
+02-27 13:08:37 Oem Config Testcase:: IsVTPopupEnabled : true
+02-27 13:08:37 Oem Config Testcase:: OEM : bgp
+02-27 13:08:37 Oem Config Testcase:: IsResizeFrontendWindow : false
+02-27 13:08:37 Oem Config Testcase:: IsSysTrayIconTextToBeBlueStacks3 : true
+02-27 13:08:37 Oem Config Testcase:: IsCreateDesktopIconForApp : true
+02-27 13:08:37 Oem Config Testcase:: IsOEMWithBGPClient : true
+02-27 13:08:37 Oem Config Testcase:: IsDownloadIconFromWeb : true
+02-27 13:08:37 Oem Config Testcase:: StartMenuShortcutName : BlueStacks.lnk
+02-27 13:08:37 Oem Config Testcase:: SendAppClickStatsFromClient : true
+02-27 13:08:37 Oem Config Testcase:: CreateMultiInstanceManagerIcon : true
+02-27 13:08:39 Fetching 'CefDataPath' Value in Client Registry..
+02-27 13:08:39 Client Registry Testcase:: 'CefDataPath' value received : C:\ProgramData\BlueStacks
+02-27 13:08:39 Fetching 'IsClientFirstLaunch' Value in Client Registry..
+02-27 13:08:39 Client Registry Testcase:: 'IsClientFirstLaunch' value received : 0
+02-27 13:08:39 Fetching 'UserSelectedLocale' Value in Client Registry..
+02-27 13:08:39 Client Registry Testcase:: 'UserSelectedLocale' value received : en-IN
+02-27 13:08:39 Fetching 'ClientVersion' Value in Client Registry..
+02-27 13:08:39 Error fetching registry value SOFTWARE\Bluestacks\Client: ClientVersion
+Traceback (most recent call last):
+  File "M:\lib\site-packages\bstcommon_bcgp_nougat\Utils.py", line 122, in get_hklm_value
+    value, regtype = winreg.QueryValueEx(registry_key, mkeyname)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+02-27 13:08:39 Client Registry Testcase:: Issue while fetching 'ClientVersion' in BlueStacks Client Registry, value received : Null
+02-27 13:08:39 Fetching 'CampaignJson' Value in Client Registry..
+02-27 13:08:39 Client Registry Testcase:: Client 'CampaignJson' value received : {"app_url": "", "app_name": "Clash of Clans", "app_icon_url": "http://cloud.bluestacks.com/app/icon?pkg=com.supercell.clashofclans", "fle_tag": "", "campaign_name": "clash-of-clans-ap-us", "exit_utm_campaign": "", "app_pkg": "com.supercell.clashofclans", "promoter_id": ""}
+02-27 13:08:39 Fetching 'CampaignMD5' Value in Client Registry..
+02-27 13:08:39 Client Registry Testcase:: Client 'CampaignMD5' value received : 6d64171b2f2ffc84393c841363158d67
+02-27 13:08:39 Fetching 'SetupFolder' Value in Client Registry..
+02-27 13:08:39 Client Registry Testcase:: Client 'SetupFolder' value received : C:\ProgramData\BlueStacksSetup
+02-27 13:08:39 Fetching 'EngineDataDir' Value in Client Registry..
+02-27 13:08:39 Client Registry Testcase:: Client 'EngineDataDir' value received : C:\ProgramData\BlueStacks\Engine
+02-27 13:08:39 Fetching 'ClientInstallDir' Value in Client Registry..
+02-27 13:08:39 Client Registry Testcase:: Client 'ClientInstallDir' value received : C:\ProgramData\BlueStacks\Client
+02-27 13:08:39 Fetching 'AvgBootTime' Value in Client Registry..
+02-27 13:08:39 Error fetching registry value SOFTWARE\Bluestacks\Client: AvgBootTime
+Traceback (most recent call last):
+  File "M:\lib\site-packages\bstcommon_bcgp_nougat\Utils.py", line 122, in get_hklm_value
+    value, regtype = winreg.QueryValueEx(registry_key, mkeyname)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+02-27 13:08:39 Client Registry Testcase:: Issue while fetching 'AvgBootTime' in BlueStacks Client Registry, value received : Null
+02-27 13:08:39 Fetching 'NoOfBootCompleted' Value in Client Registry..
+02-27 13:08:39 Client Registry Testcase:: Client 'NoOfBootCompleted' value received : 15
+02-27 13:08:39 Fetching 'TranslucentControlsEnabled' Value in Client Registry..
+02-27 13:08:39 Error fetching registry value SOFTWARE\Bluestacks\Client: TranslucentControlsEnabled
+Traceback (most recent call last):
+  File "M:\lib\site-packages\bstcommon_bcgp_nougat\Utils.py", line 122, in get_hklm_value
+    value, regtype = winreg.QueryValueEx(registry_key, mkeyname)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+02-27 13:08:39 Client Registry Testcase:: Issue while fetching 'TranslucentControlsEnabled' in BlueStacks Client Registry, value received : Null
+02-27 13:08:39 Fetching 'XpackApplied' Value in Client Registry..
+02-27 13:08:39 Error fetching registry value SOFTWARE\Bluestacks\Client: XpackApplied
+Traceback (most recent call last):
+  File "M:\lib\site-packages\bstcommon_bcgp_nougat\Utils.py", line 122, in get_hklm_value
+    value, regtype = winreg.QueryValueEx(registry_key, mkeyname)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+02-27 13:08:39 Client Registry Testcase:: Issue while fetching 'XpackApplied' in BlueStacks Client Registry, value received : Null
+02-27 13:08:41 Fetching 'Data Directory' Value in Registry..
+02-27 13:08:41 path : C:\ProgramData\BlueStacks\Engine\
+02-27 13:08:41 Engine Registry Testcase:: 'Data Directory' Value : C:\ProgramData\BlueStacks\Engine\
+02-27 13:08:41 Fetching 'Install Directory' Value in Registry..
+02-27 13:08:41 path : C:\Program Files\BlueStacks\
+02-27 13:08:41 Engine Registry Testcase:: 'Install Directory' Value : C:\Program Files\BlueStacks
+02-27 13:08:41 Fetching 'Client Version' Value in Registry..
+02-27 13:08:41 Engine Registry Testcase:: 'Client Version' Value : 4.60.0.1043
+02-27 13:08:41 Fetching 'Log Directory' Value in Registry..
+02-27 13:08:41 Engine Registry Testcase:: 'Log Directory' Value : C:\ProgramData\BlueStacks\Logs\
+02-27 13:08:41 Fetching 'USER_GUID' Value in Registry..
+02-27 13:08:41 Engine Registry Testcase:: User 'GUID' Value : 14f0c568-b991-0abc-4df4-3ad58de1680e
+02-27 13:08:41 Fetching 'User Defined Directory' Value in Registry..
+02-27 13:08:41 Engine Registry Testcase:: 'User Defined Directory' Value : C:\ProgramData\BlueStacks
+02-27 13:08:41 Fetching 'Build Version' Value in Registry..
+02-27 13:08:41 Engine Registry Testcase:: 'Build Version' Value : 4.60.0.1043
+02-27 13:08:41 Fetching 'IsUpgrade' Value in Registry..
+02-27 13:08:41 Engine Registry Testcase:: 'IsUpgrade' Value : 0
+02-27 13:08:43 Fetching Config 'OEM' Value in Registry..
+02-27 13:08:43 Engine Registry Testcase:: 'OEM' Value in Config : bgp
+02-27 13:08:45 Fetching 'Version' Value in Registry..
+02-27 13:08:45 Engine Registry Testcase:: Engine 'Version' Value : 4.60.0.1043
+02-27 13:08:47 Fetching 'engine_enabled' Value in Registry..
+02-27 13:08:47 Engine Registry Testcase:: 'engine_enabled' in DeviceCaps : raw
+02-27 13:08:49 Fetching 'GlRenderMode' Value in Registry..
+02-27 13:08:49 Engine Registry Testcase:: 'GlRenderMode' Value : 4
+02-27 13:08:51 Boot Parameter Values are not Null, will continue to fetch other Registry Values..
+02-27 13:08:51 Fetching 'OEM' Value in Registry Boot Parameters..
+02-27 13:08:51 Engine Registry Testcase:: 'OEM' Value in Boot Parameters : OEM=bgp
+02-27 13:08:51 Fetching 'caCode' Value in Registry Boot Parameters..
+02-27 13:08:51 Engine Registry Testcase:: 'caCode' Value : caCode=250
+02-27 13:08:51 Fetching 'pcode' Value in Registry Boot Parameters..
+02-27 13:08:51 Engine Registry Testcase:: 'pcode' Value : pcode=snpe
+02-27 13:08:51 Fetching 'WINDOWSAGENT' Value in Registry Boot Parameters..
+02-27 13:08:51 Engine Registry Testcase:: 'WINDOWSAGENT' Value : WINDOWSAGENT=10.0.2.2:2860
+02-27 13:08:51 Fetching 'WINDOWSFRONTEND' Value in Registry Boot Parameters..
+02-27 13:08:51 Engine Registry Testcase:: 'WINDOWSFRONTEND' Value : WINDOWSFRONTEND=10.0.2.2:2872
+02-27 13:08:51 Fetching 'AMD' Value in Registry Boot Parameters..
+02-27 13:08:51 Fetching 'noChangesDroidG' Value in Registry Boot Parameters..
+02-27 13:08:51 'noChangesDroidG' is not present in the current build..
+02-27 13:08:53 Fetching 'EnableBSTVC' Value in Registry..
+02-27 13:08:53 Engine Registry Testcase:: 'EnableBSTVC' Value : 0
+02-27 13:08:55 Fetching 'EnginePreference' Value in Registry..
+02-27 13:08:55 Engine Registry Testcase:: 'EnginePreference' Value in Config : plus
+02-27 13:08:59 path : C:\ProgramData\BlueStacks\Engine\
+02-27 13:08:59 Hybrid Build
+02-27 13:08:59 Engine: raw
+02-27 13:08:59 Checking Integrity
+02-27 13:08:59 Checking if BlueStacksUsers.log exists
+02-27 13:08:59 Integrity: BlueStacksUsers.log exists :  FAIL
+02-27 13:08:59 Checking if HD-Plus-Service.log exists
+02-27 13:08:59 Integrity: HD-Plus-Service.log exists :  FAIL
+02-27 13:08:59 Checking if installer.log exists
+02-27 13:08:59 Integrity: installer.log exists :  FAIL
+02-27 13:08:59 Checking if BlueStacksUI.log exists
+02-27 13:08:59 Integrity: BlueStacksUI.log exists :  FAIL
+02-27 13:08:59 Checking if BstkCore.log exists
+02-27 13:08:59 Integrity Testcase:: Integrity: BstkCore.log exists :  PASS
+02-27 13:08:59 Checking if BstkCore.log.1 exists
+02-27 13:08:59 Integrity: BstkCore.log.1 exists :  FAIL
+02-27 13:08:59 Checking if BstkCore.log.2 exists
+02-27 13:08:59 Integrity Testcase:: Integrity: BstkCore.log.2 exists :  PASS
+02-27 13:08:59 Checking if BstkGlobal.xml.in exists
+02-27 13:08:59 Integrity Testcase:: Integrity: BstkGlobal.xml.in exists :  PASS
+02-27 13:08:59 Checking if BstkGlobal.xml exists
+02-27 13:08:59 Integrity Testcase:: Integrity: BstkGlobal.xml exists :  PASS
+02-27 13:08:59 Checking if BstkServer.log.1 exists
+02-27 13:08:59 Integrity Testcase:: Integrity: BstkServer.log.1 exists :  PASS
+02-27 13:08:59 Checking if BstkServer.log exists
+02-27 13:08:59 Integrity Testcase:: Integrity: BstkServer.log exists :  PASS
+02-27 13:08:59 Checking if Android.bstk exists
+02-27 13:08:59 Integrity Testcase:: Integrity: Android.bstk exists :  PASS
+02-27 13:08:59 Checking if Android.bstk.in exists
+02-27 13:08:59 Integrity Testcase:: Integrity: Android.bstk.in exists :  PASS
+02-27 13:08:59 Checking if Android.bstk.orig exists
+02-27 13:08:59 Integrity: Android.bstk.orig exists :  FAIL
+02-27 13:08:59 Checking if Android.bstk-prev exists
+02-27 13:08:59 Integrity Testcase:: Integrity: Android.bstk-prev exists :  PASS
+02-27 13:08:59 Checking if Android.bstk.orig.bak exists
+02-27 13:08:59 Integrity: Android.bstk.orig.bak exists :  FAIL
+02-27 13:08:59 Checking if Boot.iso exists
+02-27 13:08:59 Integrity: Boot.iso exists :  FAIL
+02-27 13:08:59 Checking if fastboot.vdi exists
+02-27 13:08:59 Integrity Testcase:: Integrity: fastboot.vdi exists :  PASS
+02-27 13:08:59 Checking if Data.vdi exists
+02-27 13:08:59 Integrity Testcase:: Integrity: Data.vdi exists :  PASS
+02-27 13:08:59 Checking if Data_fd.vdi exists
+02-27 13:08:59 Integrity: Data_fd.vdi exists :  FAIL
+02-27 13:08:59 Checking if Prebundled.vdi exists
+02-27 13:08:59 Integrity Testcase:: Integrity: Prebundled.vdi exists :  PASS
+02-27 13:08:59 Checking if Prebundled_fd.vdi exists
+02-27 13:08:59 Integrity: Prebundled_fd.vdi exists :  FAIL
+02-27 13:08:59 Checking if Root.vdi exists
+02-27 13:08:59 Integrity Testcase:: Integrity: Root.vdi exists :  PASS
+02-27 13:08:59 Checking if Root_fd.vdi exists
+02-27 13:08:59 Integrity: Root_fd.vdi exists :  FAIL
+02-27 13:08:59 Checking if SDCard.vdi exists
+02-27 13:08:59 Integrity: SDCard.vdi exists :  FAIL
+02-27 13:08:59 Checking if SDCard_fd.vdi exists
+02-27 13:08:59 Integrity: SDCard_fd.vdi exists :  FAIL
+02-27 13:09:01 URL Testcase Build Version - 4.60.0.1043
+02-27 13:09:01 Split Version - ['4', '60']
+02-27 13:09:01 URL - ['http://cdn3.bluestacks.com/public/appsettings/.softkeyboard_activity_4.60.db', 'http://cdn3.bluestacks.com/public/appsettings/.wl_4.60.db']
+02-27 13:09:02 Link accesible
+02-27 13:09:02 URL Testcase:: http://cdn3.bluestacks.com/public/appsettings/cfg/com.droidhen.game.racingmoto.cfg is accessible: PASS
+02-27 13:09:02 Link accesible
+02-27 13:09:02 URL Testcase:: http://cdn3.bluestacks.com/public/appsettings/cfg/com.supercell.clashroyale.cfg is accessible: PASS
+02-27 13:09:02 Link accesible
+02-27 13:09:02 URL Testcase:: http://cdn3.bluestacks.com/public/appsettings/.config.db is accessible: PASS
+02-27 13:09:02 Link accesible
+02-27 13:09:02 URL Testcase:: http://www.bluestacks-cloud.appspot.com/static/support_page/index.html is accessible: PASS
+02-27 13:09:04 path : C:\ProgramData\BlueStacks\Client
+02-27 13:09:04 path : C:\Program Files\BlueStacks\
+02-27 13:09:04 file - Bluestacks.exe
+02-27 13:09:04 file - DiscordRPC.dll
+02-27 13:09:04 file - HD-Common.dll
+02-27 13:09:04 file - JSON.dll
+02-27 13:09:04 file - BlueStacksHelper.exe
+02-27 13:09:04 file - HD-Common.dll
+02-27 13:09:04 file - JSON.dll
+02-27 13:09:05 file - Microsoft.Win32.TaskScheduler.dll
+02-27 13:09:05 FAIL: Check Signature of  b'c:\\programdata\\bluestacks\\client\\helper\\Microsoft.Win32.TaskScheduler.dll:\r\n\tVerified:\tUnsigned\r\n\tFile date:\t11:09 AM 25-02-2019\r\n\tPublisher:\tGitHub Community\r\n\tDescription:\tMicrosoft.Win32.TaskScheduler\r\n\tProduct:\tMicrosoft.Win32.TaskScheduler\r\n\tVersion:\t2.8.7\r\n\tFile version:\t2.8.7.0\r\n'
+02-27 13:09:05 Signature Testcase:: Number Of Signature Files Checked(ClientInstall Directory) : 8
+02-27 13:09:05 
+Unsigned EXE List
+
+02-27 13:09:05 C:\ProgramData\BlueStacks\Client\Helper\Microsoft.Win32.TaskScheduler.dll
+02-27 13:09:05 Signature Testcase:: Check Signature of 'C:\ProgramData\BlueStacks\Client\Helper\Microsoft.Win32.TaskScheduler.dll' : FAIL
+02-27 13:09:05 file - BlueStacksUninstaller.exe
+02-27 13:09:05 file - BstkC.dll
+02-27 13:09:05 file - BstkDD.dll
+02-27 13:09:05 file - BstkDD2.dll
+02-27 13:09:05 file - BstkDDU.dll
+02-27 13:09:05 file - BstkProxyStub.dll
+02-27 13:09:05 file - BstkProxyStubLegacy.dll
+02-27 13:09:05 file - BstkREM.dll
+02-27 13:09:05 file - BstkRT.dll
+02-27 13:09:05 file - BstkSharedFolders.dll
+02-27 13:09:05 file - BstkSVC.exe
+02-27 13:09:05 file - BstkVMM.dll
+02-27 13:09:06 file - BstkVMMgr.exe
+02-27 13:09:06 file - D3DCompiler_43.dll
+02-27 13:09:06 file - d3dcompiler_47.dll
+02-27 13:09:06 file - DiscordRPC.dll
+02-27 13:09:06 file - HD-Agent.exe
+02-27 13:09:06 file - HD-ApkHandler.exe
+02-27 13:09:06 file - HD-Audio-Native.dll
+02-27 13:09:06 file - HD-BlockDeviceTool.exe
+02-27 13:09:06 file - HD-Camera-Native.dll
+02-27 13:09:06 file - HD-Common-Native.dll
+02-27 13:09:06 file - HD-Common.dll
+02-27 13:09:06 file - HD-ConfigHttpProxy.exe
+02-27 13:09:06 file - HD-CreateSymlink.exe
+02-27 13:09:06 file - HD-DataManager.exe
+02-27 13:09:06 file - HD-DeviceCaps.exe
+02-27 13:09:07 file - HD-Frontend-Native.dll
+02-27 13:09:07 file - HD-GLCheck.exe
+02-27 13:09:07 file - HD-Gps-Native.dll
+02-27 13:09:07 file - HD-GpsLocator-Native.dll
+02-27 13:09:07 file - HD-GuestCommandRunner.exe
+02-27 13:09:07 file - HD-Imap-Native.dll
+02-27 13:09:07 file - HD-LogCollector.exe
+02-27 13:09:07 file - HD-MultiInstanceManager.exe
+02-27 13:09:07 file - HD-Opengl-Native.dll
+02-27 13:09:07 file - HD-Player.exe
+02-27 13:09:07 file - HD-Plus-Camera-Native.dll
+02-27 13:09:07 file - HD-Plus-Devices.dll
+02-27 13:09:07 file - HD-Plus-Frontend-Native.dll
+02-27 13:09:07 file - HD-Plus-Service-Native.dll
+02-27 13:09:07 file - HD-Plus-Tool-Native.exe
+02-27 13:09:08 file - HD-Quit.exe
+02-27 13:09:08 file - HD-QuitMultiInstall.exe
+02-27 13:09:08 file - HD-RunApp.exe
+02-27 13:09:08 file - HD-Sensor-Native.dll
+02-27 13:09:08 file - HD-SslCertificateTool.exe
+02-27 13:09:08 file - HD-UnRegRegCom.exe
+02-27 13:09:08 file - HD-VMCommand.dll
+02-27 13:09:08 file - HD-VmInstanceCommon.dll
+02-27 13:09:08 file - HD-VmManager.exe
+02-27 13:09:08 file - JSON.dll
+02-27 13:09:08 file - libEGL.dll
+02-27 13:09:08 file - libEGL_translator.dll
+02-27 13:09:08 file - libGLESv2.dll
+02-27 13:09:08 file - libGLES_CM_translator.dll
+02-27 13:09:08 file - libGLES_V2_translator.dll
+02-27 13:09:09 file - libOpenglRender.dll
+02-27 13:09:09 file - msvcp100.dll
+02-27 13:09:09 file - msvcr100.dll
+02-27 13:09:09 Signature Testcase:: Number Of Signature Files Checked(ProgramFiles Directory) : 60
+02-27 13:09:09 
+Unsigned EXE List
+
+02-27 13:09:09 C:\ProgramData\BlueStacks\Client\Helper\Microsoft.Win32.TaskScheduler.dll
+02-27 13:09:09 Signature Testcase:: Check Signature of 'C:\ProgramData\BlueStacks\Client\Helper\Microsoft.Win32.TaskScheduler.dll' : FAIL
+02-27 13:09:11 path : C:\Program Files\BlueStacks\
+02-27 13:09:57 Sanity Testcase:: 'com.king.candycrushsaga' is installed in ARM-mode as per Android-file '/data/downloads/.config.db': PASS
+02-27 13:09:57 Sanity Testcase:: 'com.rovio.angrybirdsfriends' is installed in X86-mode as per Android-file '/data/downloads/.config.db': PASS
+02-27 13:09:59 path : C:\Program Files\BlueStacks\
+02-27 13:09:59 Executing HD-Quit.exe for AppPlayer Quit..
+02-27 13:10:10 given process are not running
+02-27 13:10:10 Sanity Testcase:: BlueStacks has been Quit Successfully: PASS
+02-27 13:10:12 path : C:\Program Files\BlueStacks\
+02-27 13:10:12 Executing Bluestacks.exe for AppPlayer Launch..
+02-27 13:10:19 Sanity Testcase:: BlueStacks has been Started Successfully: PASS
+02-27 13:11:49 screen_Capture() - gift value received - None
+02-27 13:11:49 screen_shot() - else:
+02-27 13:11:53 STREAM b'IHDR' 16 13
+02-27 13:11:53 STREAM b'IDAT' 41 65536
+02-27 13:12:08 STREAM b'IHDR' 16 13
+02-27 13:12:08 STREAM b'IDAT' 41 65536
+02-27 13:12:14 STREAM b'IHDR' 16 13
+02-27 13:12:14 STREAM b'IDAT' 41 65536
+02-27 13:12:21 STREAM b'IHDR' 16 13
+02-27 13:12:21 STREAM b'IDAT' 41 65536
+02-27 13:12:40 STREAM b'IHDR' 16 13
+02-27 13:12:40 STREAM b'IDAT' 41 65536
+02-27 13:13:06 STREAM b'IHDR' 16 13
+02-27 13:13:06 STREAM b'IDAT' 41 65536
+02-27 13:13:08 Shortcut is present on the System Desktop Path: C:\Users\Public\Desktop\BlueStacks.lnk
+02-27 13:13:08 Sanity Testcase:: Start Menu Shortcut created successfully: PASS
+02-27 13:13:10 BlueStacks Start Menu Entry is present at Path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks.lnk
+02-27 13:13:10 Sanity Testcase:: Start Menu Entry created successfully: PASS
+02-27 13:13:12 path : C:\Program Files\BlueStacks\
+02-27 13:13:16 Shell connected..
+02-27 13:13:16 Sanity Testcase:: SD Card Memory size is apprx 64GB , 63G :  PASS
+02-27 13:13:18 Deleted Sanity_BGP_N_master Logs Folder..
+02-27 13:13:18 Created Sanity_BGP_N_master Logs Folder..
+02-27 13:13:20 path : C:\Program Files\BlueStacks\
+02-27 13:13:20 Executing HD-LogCollector.exe for Problem Report...
+02-27 13:19:17 Fetching 'USER_GUID' Value in Registry..
+02-27 13:19:17 User 'GUID' Value : 14f0c568-b991-0abc-4df4-3ad58de1680e
+02-27 13:19:17 Fetching 'USER_GUID' Value in Registry..
+02-27 13:19:17 User 'GUID' Value : 14f0c568-b991-0abc-4df4-3ad58de1680e
+02-27 13:19:17 Fetching 'USER_GUID' Value in Registry..
+02-27 13:19:17 User 'GUID' Value : 14f0c568-b991-0abc-4df4-3ad58de1680e
+02-27 13:19:17 Fetching 'USER_GUID' Value in Registry..
+02-27 13:19:17 User 'GUID' Value : 14f0c568-b991-0abc-4df4-3ad58de1680e
+02-27 13:19:17 Starting new HTTP connection (1): automation.bluestacks-cloud.appspot.com:80
+02-27 13:19:21 http://automation.bluestacks-cloud.appspot.com:80 "GET /test/debuglogs?guid=14f0c568-b991-0abc-4df4-3ad58de1680e&version=4.60.0.1043 HTTP/1.1" 200 585
+02-27 13:19:21 Downloading logs for GUID - 14f0c568-b991-0abc-4df4-3ad58de1680e
+02-27 13:19:25 Download complete and Zip deleted...
+02-27 13:19:29 Sanity Testcase:: Problem Report Check Mechanism: PASS
+02-27 13:19:31 Fn install_apk_hw_accel() started.
+
+02-27 13:19:31 path : C:\Program Files\BlueStacks\
+02-27 13:19:38 path : C:\Program Files\BlueStacks\
+02-27 13:19:38 Shell connected..
+02-27 13:19:43 Canvas Intent Fired..
+02-27 13:19:56 Camera Intent Fired..
+02-27 13:20:36 Canvas2 Intent Fired..
+02-27 13:21:17 Sanity Testcase:: Hardware acceleration/TextureView Enabled: PASS
+Backup Testcase:: BeforeBackup -> App launch 'Defender' is Successful on the build : Pass 
+Backup Testcase:: BeforeBackup -> OTS mechanism is Successful on the build : Pass 
+Issue in check_output1 - Command 'C:\Program Files\BlueStacks\HD-Adb.exe -s emulator-5554 shell ls -la  sdcard/DCIM/SharedFolder/720p.mp4' returned non-zero exit status 1
+Issue in check_output2 - Command 'C:\Program Files\BlueStacks\HD-Adb.exe -s emulator-5554 shell ls -la  sdcard/DCIM/SharedFolder/sample.mp3' returned non-zero exit status 1
+Backup Testcase:: BeforeBackup -> Data files added via FileManager are None : Pass
+Backup Testcase:: BeforeBackup -> Created an Instance on the build : Pass
+Backup Testcase:: Restore -> Restored successfully from the backup: Pass
+Backup Testcase:: Restore -> All the instances are restored: Pass
+Backup Testcase:: Restore -> Data files present after Restore operation: Pass
